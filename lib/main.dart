@@ -14,6 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(
         primaryColor: kLightGreen,
+        accentColor: kLightGreen,
         iconTheme: IconThemeData(color: kLightGreen),
       ),
       debugShowCheckedModeBanner: false,

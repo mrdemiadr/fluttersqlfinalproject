@@ -11,7 +11,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  String usernameAPI = '';
+  String usernameAPI;
 
   @override
   void initState() {
@@ -22,7 +22,11 @@ class _HomeScreenState extends State<HomeScreen> {
   _getPref() async {
     await SharedPref.getPref().then((value) {
       setState(() {
-        usernameAPI = value;
+        if (value != null) {
+          usernameAPI = value;
+        } else {
+          usernameAPI = '';
+        }
       });
     });
   }
@@ -30,28 +34,35 @@ class _HomeScreenState extends State<HomeScreen> {
   @override
   Widget build(BuildContext context) {
     timeDilation = 2.0;
-    return Scaffold(
-      appBar: AppBar(
-        leading: Hero(
-          tag: 'animasilogo',
-          child: Container(
-            margin: EdgeInsets.all(5.0),
-            child: Image.asset('assets/img/lemonlime.png'),
+    return WillPopScope(
+      onWillPop: () async => false,
+      child: Scaffold(
+        appBar: AppBar(
+          leading: Hero(
+            tag: 'animasilogo',
+            child: Container(
+              margin: EdgeInsets.all(5.0),
+              child: Image.asset('assets/img/lemonlime.png'),
+            ),
           ),
+          title: Text('Welcome $usernameAPI'),
+          actions: [
+            IconButton(
+              icon: const Icon(Icons.logout),
+              onPressed: () {
+                SharedPref.signOut();
+                Navigator.pushReplacementNamed(context, LoginScreen.id);
+              },
+            )
+          ],
         ),
-        title: Text('Welcome $usernameAPI'),
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.logout),
-            onPressed: () {
-              SharedPref.signOut();
-              Navigator.pushReplacementNamed(context, LoginScreen.id);
-            },
-          )
-        ],
-      ),
-      body: Center(
-        child: Text('Ini Halaman HomeScreen'),
+        body: Center(
+          child: Text('Ini Halaman HomeScreen'),
+        ),
+        floatingActionButton: FloatingActionButton(
+          onPressed: () {},
+          child: Icon(Icons.add),
+        ),
       ),
     );
   }

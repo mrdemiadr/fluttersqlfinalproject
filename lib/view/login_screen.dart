@@ -134,6 +134,20 @@ class _LoginScreenState extends State<LoginScreen> {
                   check();
                 },
               ),
+              InkWell(
+                child: Container(
+                  margin: EdgeInsets.only(top: 20.0, right: 20.0),
+                  child: Text(
+                    'Skip Login ->>',
+                    textAlign: TextAlign.right,
+                    style: TextStyle(
+                        fontSize: 20.0,
+                        decoration: TextDecoration.underline,
+                        color: Colors.white),
+                  ),
+                ),
+                onTap: () => Navigator.pushNamed(context, HomeScreen.id),
+              )
             ],
           ),
         ),
