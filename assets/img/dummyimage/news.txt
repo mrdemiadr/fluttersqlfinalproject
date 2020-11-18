@@ -1,0 +1,50 @@
+https://freenews.live/
+
+news1 New machine learning method predicts turbulence
+
+Researchers at the University of Illinois have developed a new AI training method that can more accurately predict turbulence.
+
+    We don’t know how to mathematically write all turbulence. There are unknowns that cannot be represented on a computer. If you try to train an AI without considering the basic known equations of physics, it won’t work. We combined them and it worked.
+
+    Jonathan Freund, Professor and Head of Aerospace Engineering
+
+When designing an airship or spacecraft, Freund said this method will help engineers predict whether the design will provide a safe flight.
+
+They will be able to make changes, test a plane, for example, and see if the forecast has improved.
+
+    Anyone who wants to simulate physical phenomena can use this new method. You can just use our algorithm, load the data into the software. This is a method that allows for other unknown physics. And we can work with it in different planes.
+
+    Jonathan Freund, Professor and Head of Aerospace Engineering
+
+The work was performed using a supercomputer at the National Center for Supercomputers at UIUC. This made the simulation faster and therefore more economical.
+
+Freund said that while the work has been done at a research level, it could potentially affect the industry.
+
+news 2 New computer vision technologies detect enemy drones faster 
+
+Standard unmanned aerial vehicles (UAVs) carrying a payload of explosives or biological material can enter a crowded building or military base. The ability of terrorists or enemy armed forces to send such “packages” is called the “future of war.” University of Technology Sydney (UTS) and DroneShield have developed next-generation drone technology to better detect threats from aggressive UAVs.
+
+Through the partnership, UTS and DroneShield, an Australian developer of counter-drone solutions, have created an optical system to detect, identify, and track rapidly spreading threats such as enemy UAVs. It consists of a camera and a super-precise neural network (CNN).
+
+UTS and DroneShield began working together in October 2019 – just a month after the aggressive use of drones against oil facilities in Abqayk Hurais in Saudi Arabia.
+
+The new technology was recently demonstrated at the Sydney Science Park.
+
+UTS Vice Chancellor Attila Brungs said the project is an excellent example of what the university is striving for: creating and applying technologies that can be used “here and now”.
+
+“We are using CNN and deep learning to provide DroneShield with a solution to identify potential threats to drones,” explains project manager Nabin Sharma. – The algorithm allows the computer vision system to see what is happening, compare the data, and process it for ultra-fast object recognition and image analysis. This allows for near-instant and effective threat assessment and decision making in response to it. The system is capable of detecting different types of drones and checking for the presence of a payload. ”
+
+The new development could save many lives in the event of a terrorist attack, the scientists conclude.
+
+
+news3 Apple announces MacBook Pro 13 with M1 processor 
+
+Apple has unveiled a 13-inch MacBook Pro powered by its own M1 ARM chip.
+
+With the new processor, the computer is eight times faster than the previous generation with an Intel processor. Graphics are five times more powerful. It is the most powerful compact laptop available today.
+
+An ARM processor is not only about performance, but also incredible autonomy: up to 17 hours of web browsing and up to 20 hours of video playback.
+
+As with the MacBook Air, the rest of the laptop is no different from the Intel version: up to 8GB of RAM and 512GB of storage (16 RAM and 2TB of ROM available only for laptops with Intel processors), 13.3-inch P3 Gamut Display, Touch ID in Power Button and Magic Keyboard.
+
+In addition, the laptop supports Thunderbolt and USB 4 accessories. Wi-Fi 6, studio-quality microphones and speakers, everything is as it should be. The MacBook Pro 13 with an M1 processor will be available for pre-order today and will start shipping next week. The basic version will cost $ 1299 and $ 1199 for students.

@@ -56,7 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
     if (userResult.value == 1) {
       SharedPref.simpanPrefereneces(
           userResult.emailAPI, userResult.usernamedAPI);
-      Navigator.pushNamed(context, HomeScreen.id);
+      Navigator.pushReplacementNamed(context, HomeScreen.id);
     } else {
       _scaffoldKey.currentState.showSnackBar(SnackBar(
         content: Text(userResult.pesan),

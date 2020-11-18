@@ -51,7 +51,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: const Icon(Icons.logout),
               onPressed: () {
                 SharedPref.signOut();
-                Navigator.pushReplacementNamed(context, LoginScreen.id);
+                Navigator.pushNamed(context, LoginScreen.id);
               },
             )
           ],
