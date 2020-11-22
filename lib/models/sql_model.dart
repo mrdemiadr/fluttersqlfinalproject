@@ -6,7 +6,7 @@ class UserResult {
   String pesan;
   String emailAPI;
   String usernamedAPI;
-  int idUser;
+  String idUser;
   UserResult(
       {this.value, this.emailAPI, this.idUser, this.pesan, this.usernamedAPI});
 
@@ -16,6 +16,7 @@ class UserResult {
       pesan: data['message'],
       emailAPI: data['email'],
       usernamedAPI: data['username'],
+      idUser: data['id_user'],
     );
   }
 

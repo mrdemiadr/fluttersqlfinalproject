@@ -5,6 +5,15 @@ class BaseURL {
   static const kLoginUrl = 'https://fluttersqlcrud.000webhostapp.com/login.php';
   static const kRegisterUrl =
       'https://fluttersqlcrud.000webhostapp.com/register.php';
+  static const kAddnewsrUrl =
+      'https://fluttersqlcrud.000webhostapp.com/addNews.php';
+  static const kDetailUrl =
+      'https://fluttersqlcrud.000webhostapp.com/detailNews.php';
+  static const kEditUrl =
+      'https://fluttersqlcrud.000webhostapp.com/editNews.php';
+  static const kDeleteUrl =
+      'https://fluttersqlcrud.000webhostapp.com/deleteNews.php';
+  static const kImageUrl = 'https://fluttersqlcrud.000webhostapp.com/upload/';
 }
 
 Color kLightGreen = Color(0xFFB2DBBF);

@@ -55,8 +55,11 @@ class _LoginScreenState extends State<LoginScreen> {
         .then((value) => userResult = value);
     if (userResult.value == 1) {
       SharedPref.simpanPrefereneces(
-          userResult.emailAPI, userResult.usernamedAPI);
-      Navigator.pushReplacementNamed(context, HomeScreen.id);
+          userResult.emailAPI, userResult.usernamedAPI, userResult.idUser);
+      print('dari sql ${userResult.idUser}');
+      Future.delayed(Duration(seconds: 1), () {
+        Navigator.pushNamed(context, HomeScreen.id);
+      });
     } else {
       _scaffoldKey.currentState.showSnackBar(SnackBar(
         content: Text(userResult.pesan),
